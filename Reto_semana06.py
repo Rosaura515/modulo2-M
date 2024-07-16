@@ -1,12 +1,11 @@
 #Crear un programa que pida la contraseña,la verifique y salga del programa en caso de error.
-entrada=input("Hola! introduce tu contraseña: ") 
-numero=int=(6)
-entrada2=input("escribe nuevamente tu contraseña: ")
-numero2=int=(6)
-random=numero_de_intentos=3
-numero_de_intentos>0
-resultado=("intentos restantes:" ,numero_de_intentos )
-int=entrada==entrada2
-thrue= ("Bienvenido: ")
-False 
-print_return =("Programa cerrado por seguridad,intentar nuevamente dentro de 5 minutos":)
+import random
+print=input ("Hola! introduce tu contraseña: ")
+password1=input(" ")
+print=input("escribe nuevamente tu contraseña: ")
+password2=input(" ")
+if password1 == password2:
+ print=input("BIENVENIDO")
+else:password1!=password2
+print=input("Intente nuevamente en 5 minutos")
+ 
